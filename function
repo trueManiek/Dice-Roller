@@ -1,3 +1,5 @@
+var scores = [];
+
 var diceRoll = function(qt, die) {
     
     var score;
