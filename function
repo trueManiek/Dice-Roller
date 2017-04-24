@@ -2,8 +2,8 @@ var scores = [];
 
 var diceRoll = function(qt, die) {
     
-    var score;
-    var roll;
+    var score = 0;
+    var roll = 0;
     
     for (var i = 0; i < qt; i++){
         roll = Math.floor((Math.random() * die) +1);
